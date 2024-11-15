@@ -10,6 +10,7 @@ import FooterComponent from "../footer";
 import HeaderComponent from "../header";
 import BottomNav from "../header/BottomNav";
 import { MainLayoutRoot } from "./LandingLayout";
+import { Analytics } from "@vercel/analytics/react"
 
 const MainLayout = ({ children, configData, landingPageData }) => {
 	const [rerenderUi, setRerenderUi] = useState(false);

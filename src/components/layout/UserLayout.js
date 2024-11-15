@@ -5,7 +5,7 @@ import { useTheme } from "@emotion/react";
 import MenuBar from "../profile/MenuBar";
 import SideDrawer from "../profile/SideDrawer";
 import { styled } from "@mui/material/styles";
-
+import { Analytics } from "@vercel/analytics/react"
 const CustomBodyContent = styled("div")(({ theme }) => ({
   flexGrow: 1,
   padding: theme.spacing.unit * 3,

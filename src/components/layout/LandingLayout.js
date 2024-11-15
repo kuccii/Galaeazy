@@ -2,7 +2,7 @@ import { NoSsr, Stack, styled } from "@mui/material";
 import HeaderComponent from "../header";
 import FooterComponent from "../footer";
 import PropTypes from "prop-types";
-
+import { Analytics } from "@vercel/analytics/react"
 export const MainLayoutRoot = styled(Stack)(({ theme }) => ({
   backgroundColor: theme.palette.background.default,
   height: "100vh",
