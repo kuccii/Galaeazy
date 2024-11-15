@@ -8,8 +8,8 @@ import { getServerSideProps } from "../index";
 import MainLayout from "../../src/components/layout/MainLayout";
 import SEO from "../../src/components/seo";
 import CustomContainer from "../../src/components/container";
-import DeliveryComponent from "../../src/components/deliveryman-registration/ DeliveryManComponent";
-import DeliveryManComponent from "../../src/components/deliveryman-registration/ DeliveryManComponent";
+import DeliveryComponent from "../../src/components/deliveryman-registration/DeliveryManComponent";
+import DeliveryManComponent from "../../src/components/deliveryman-registration/DeliveryManComponent";
 import useScrollToTop from "../../src/api-manage/hooks/custom-hooks/useScrollToTop";
 const Index = ({ configData, landingPageData }) => {
   const router = useRouter();
